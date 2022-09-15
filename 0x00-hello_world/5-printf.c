@@ -1,2 +1,10 @@
-#!/bin/bash
-int printf("with prop[er grammar, but the outcome is a piece of art,\n"); gcc $CFILE -c
+/**
+ * main - Prints "with proper grammar, but the outcome is a piece of art,"
+ * Return: 0 if intended outcome. Error otherwise
+ */
+#include<stdio.h>
+int main(void)
+{
+	printf("with proper grammar, but the outsome is a pieace of art,");
+	return (0);
+}
