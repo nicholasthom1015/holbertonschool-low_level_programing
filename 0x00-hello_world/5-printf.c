@@ -5,6 +5,6 @@
 #include<stdio.h>
 int main(void)
 {
-	printf("with proper grammar, but the outsome is a pieace of art,'\n'");
+	printf("with proper grammar, but the outsome is a pieace of art, \n");
 	return (0);
 }
