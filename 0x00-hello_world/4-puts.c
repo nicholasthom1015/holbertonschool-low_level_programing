@@ -1,6 +1,6 @@
 /**
  * main - Prints "Programming is like building a multilingual puzzle"
- * Return: 1 if intended outcome. Error otherwise
+ * Return: 0 if intended outcome. Error otherwise
  */
 #include<stdio.h>
 int main(void)
