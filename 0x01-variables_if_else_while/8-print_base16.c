@@ -2,7 +2,16 @@
 
 int main(void)
 {
-	unsigned char a+0x64;
-	int b=0xFAFA;
+	int n;
+	char letter;
 
-	
+	for (n = 0; n < 10; n++)
+		putchar((n % 10) + '0');
+
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
+
+	putchar('\n');
+
+	return (0);
+}
