@@ -8,9 +8,10 @@ int main(void)
 {
 	int n;
 
-	if (n < 10)
+	n = 0;
+	while (n < 10)
 		(n++);
-	{	printf("%d");
+	{	printf("%d \n", n);
 	}
 
 	return (0);
