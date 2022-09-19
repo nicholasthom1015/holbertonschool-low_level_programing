@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/**
+ * main - prints a Hexadecimal
+ * Return: 0 if intended outcome. Error otherwise
+ */
 int main(void)
 {
 	int n;
