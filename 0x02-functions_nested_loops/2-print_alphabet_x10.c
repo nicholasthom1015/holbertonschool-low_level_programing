@@ -1,7 +1,6 @@
-include "main.h"
+#include "main.h"
 /**
  * print_alphabet_x10 - prints alphabet x10 times
- * Return: 0 if intended outcome
  */
 void print_alphabet_x10(void)
 {
@@ -15,5 +14,4 @@ void print_alphabet_x10(void)
 		_putchar ('\n');
 	}
 
-	return (0)
 }
