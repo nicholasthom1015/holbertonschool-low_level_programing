@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_numbers - print 0-9
+ * @num: character to test
  */
 void print_numbers(void)
 {
