@@ -5,17 +5,18 @@
  */
 void print_square(int size)
 {
-	int height = 0;
-	char length;
+	int height, length;
 
 	if (size > 0)
 	{
-
-	while (height++ <= size)
-		{	
-		for (length = 0; length <= size; length++)
+	for (height = 0; height < size; height++)
+		{
+		for (length = 0; length < size; length++)
 			_putchar('#');
+
+		if (height == size - 1)
+			continue;
 			_putchar('\n');
-			}
+		}
 	}
 }
