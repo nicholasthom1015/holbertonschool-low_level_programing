@@ -8,6 +8,8 @@ void print_square(int size)
 	int height = 0;
 	char length;
 
+	if (size > 0)
+
 	while (height++ <= size)
 	{
 		for (length = 0; length <= size; length++)
