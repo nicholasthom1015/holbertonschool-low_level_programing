@@ -9,11 +9,13 @@ void print_square(int size)
 	char length;
 
 	if (size > 0)
+	{
 
 	while (height++ <= size)
-	{
+		{	
 		for (length = 0; length <= size; length++)
 			_putchar('#');
 			_putchar('\n');
+			}
 	}
 }
