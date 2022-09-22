@@ -5,7 +5,8 @@
  */
 void print_square(int size)
 {
-	int length, height;
+	int height = 0;
+	char length;
 
 	if (size > 0)
 
