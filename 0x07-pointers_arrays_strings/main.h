@@ -2,5 +2,5 @@
 #define _MAIN_H
 #include <stddef.h>
 
-void *_memset(char *s, int c, size_t n);
+char *_memset(char *s, int c, size_t n);
 #endif
