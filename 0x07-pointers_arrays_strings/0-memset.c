@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 /**
  * _memset - fills memory with a constant byte
  * @s: test character
@@ -6,7 +7,7 @@
  * @n: test character
  * Return: 0
  */
-char *_memset(char *s, char b, unsigned int n)
+void *_memset(char *s, int b, size_t n)
 {
 	unsigned int index;
 	unsigned char *memory = s, value = b;
