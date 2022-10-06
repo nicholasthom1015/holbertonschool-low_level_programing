@@ -10,15 +10,9 @@ int main(int argc, char *argv[])
 {
 	int a, b, result;
 
-	if (argc < 0)
+	if (argc < '0')
 	{
-		printf("Error\n");
-		return (1);
-	}
-
-	if (argc != 3)
-	{
-		printf("Error\n");
+		printf("0\n");
 		return (1);
 	}
 
