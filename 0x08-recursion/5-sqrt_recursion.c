@@ -17,7 +17,7 @@ int _sqrt(int n, int root)
 }
 
 /**
- * _sqrt_recusion - returns natural square roots of a number
+ * _sqrt_recursion - returns natural square roots of a number
  * @n: base number
  * Return: 0
  */
