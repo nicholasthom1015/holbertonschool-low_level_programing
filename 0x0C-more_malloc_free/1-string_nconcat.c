@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * string_nconcat - concatenatese two strings
- * s1: first string
- * s2: second string
+ * @s1: first string
+ * @s2: second string
  * @n: maximum number of bytes of s2 to s1
  *
  * Return: 0
@@ -11,7 +11,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *concat;
-	unsigned int ;en = n, index;
+	unsigned int len = n, index;
 
 	if (s1 == NULL)
 		s1 = "";
