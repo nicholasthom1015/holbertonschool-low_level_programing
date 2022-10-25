@@ -4,6 +4,7 @@
 #include <stdarg.h>
 /**
  * struct printer - new struct type defining a printer
+ * @symbol: symbol representing data type
  * @print: function printer to a function that prints data types
  */
 typedef struct printer
