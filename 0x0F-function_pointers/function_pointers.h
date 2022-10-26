@@ -1,6 +1,6 @@
+#ifndef FUNCTION_POINTER
+#define FUNCTION_POINTERS
 #include <stddef.h>
-#ifndef _MAIN_H
-#define _MAIN_H
 
 void print_name(char *name, void (*f)(char *));
 void array_iterator(int *array, size_t size, void (*action)(int));
