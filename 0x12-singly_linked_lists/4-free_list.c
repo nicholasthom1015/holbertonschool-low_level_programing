@@ -5,7 +5,6 @@
  * free_list - frees list_t list
  * @head: pointer to list_t list
  */
-
 void free_list(list_t *head)
 {
 	list_t *tmp;
