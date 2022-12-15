@@ -1,0 +1,37 @@
+#ifndef _MAIN_H
+#define _MAIN_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+/**
+ * struct hash_node_s - node of hash table
+ * @key: key
+ * @value: value of key
+ * @next: pointer to next node
+ */
+
+typedef struct hash_node_s
+{
+	char *key;
+	char *value;
+	struct hash_node_s *next;
+} hash_node_t;
+
+/**
+ * struct hash_table_s - hash table structure
+ * @size: size of array
+ * @array: array of size @size
+ */
+
+typedef struct hash_table_s
+{
+	unsigned long int size;
+	hash_node_t **array;
+} hash_table_t;
+
+hash_table_t *hash_table_create(unsigned long int size);
+
+
+#endif
